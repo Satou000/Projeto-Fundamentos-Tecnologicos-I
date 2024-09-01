@@ -7,21 +7,21 @@
 }
 
 body {
-  background-color: peachpuff;
-  height: 100vh;
+  background-color: black;
+  height: 70vh;
   font-family: "Roboto", sans-serif;
 }
 
 .interface {
-  max-width: 1300px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 /* ESTILO CABEÇALHO */
 header {
-  padding: 10px 4%;
-  background-color: palevioletred;
-  border-bottom: 2px solid pink;
+  padding: 0.5% 4%;
+  background-color: #121521;
+  border-bottom: 1px solid #21418c;
 }
 
 header > .interface {
@@ -38,8 +38,9 @@ header a {
 }
 
 header a:hover {
-  color: black;
+  color: white;
   transform: scale(1.05);
+  font-weight: bold;
 }
 
 header nav ul {
@@ -52,18 +53,18 @@ header nav ul li {
 }
 
 header .contato button {
-  padding: 10px 40px;
-  font-size: 18px;
+  padding: 7px 35px;
+  font-size: 15px;
   font-weight: 600;
-  background-color: rgb(224, 33, 65);
+  background-color: rgb(32, 191, 223);
   border: 0;
   border-radius: 30px;
   cursor: pointer;
-  box-shadow: 0px 4px 8px rgb(136, 32, 49);
+  box-shadow: 0px 2px 4px rgb(23, 99, 114);
 }
 
 header .contato button:houver {
-  box-shadow: 0px 4px 8px rgb(136, 32, 49);
+  box-shadow: 0px 2px 4px rgb(23, 99, 114);
 }
 
 #organograma_mor {
@@ -76,7 +77,7 @@ header .contato button:houver {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: black;
+  color: white;
 }
 
 .pessoas {
@@ -86,5 +87,29 @@ header .contato button:houver {
 }
 
 .topicos {
-  padding: 0px 70px 0px 70px;
+  padding: 190px 70px 0px 70px;
+  color: white;
+  font-size: 280%;
+  font-family: "Handjet", sans-serif;
+}
+
+.apresentacao {
+  padding: 45px 80px 0px 70px;
+  color: white;
+  font-size: 130%;
+  font-family: "Handjet", sans-serif;
+  max-width: 50%;
+  text-align: justify;
+}
+
+#saiba_mais{
+  padding: 10px 35px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgb(32, 191, 223);
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgb(23, 99, 114);
+  margin: 5%;
 }
