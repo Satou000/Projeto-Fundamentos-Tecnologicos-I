@@ -1,4 +1,90 @@
-html {
-  height: 100%;
-  width: 100%;
+/* ESTILO GERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: peachpuff;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.interface {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* ESTILO CABEÇALHO */
+header {
+  padding: 10px 4%;
+  background-color: palevioletred;
+  border-bottom: 2px solid pink;
+}
+
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.2s;
+}
+
+header a:hover {
+  color: black;
+  transform: scale(1.05);
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0 40px;
+}
+
+header .contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(224, 33, 65);
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgb(136, 32, 49);
+}
+
+header .contato button:houver {
+  box-shadow: 0px 4px 8px rgb(136, 32, 49);
+}
+
+#organograma_mor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.organograma {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+}
+
+.pessoas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topicos {
+  padding: 0px 70px 0px 70px;
 }
